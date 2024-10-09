@@ -31,4 +31,29 @@ const myFunction = function(){
     console.log("Hello World")
 }
 
-console.log(typeof myFunction)
+//console.log(typeof myFunction)
+
+
+
+//************************************** 
+
+// Memory is of two types
+//Stack memory (Primitive), Heap memory (Non-Primitive)
+
+let myYoutubename = "kiddlytales"
+let anothername = myYoutubename
+anothername = "funnyflickers"
+//console.log(myYoutubename)
+//console.log(anothername)
+
+
+let userOne = {
+    email: "user@google.com",
+    uname: "user"
+}
+
+let userTwo = userOne
+
+userTwo.email = "stranger@google.com"
+console.log(userOne)
+console.log(userTwo)
